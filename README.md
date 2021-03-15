@@ -10,6 +10,12 @@ Research suggests that grain producers experience higher costs and lower revenue
 ###### Purpose of this project
 This project aims to support grain merchandisers with identifying possible opportunities for profit by using Artificial Neural Network (ANN) algorithms, time series methods such as seasonal ARIMA and State Space models, and other approaches to identify relationships overtime in the cash price of Soybean, Corn, Cotton and Wheat. 
 This project aims to develop a structural model to explain COVID-19 merchandising behavior as compared to pre-COVID-19, and forecast performance of these commodities within the COVID-19 climate and beyond.
+
+###### Neural Network Model
+- Stock/financial data was used. High and Low data were dropped while Close and Volume data were kept. Range data was created by subtracting Low data from High data prior to dropping High and Low data.<br>
+- There are currently 23 features, including Close, Volume, and Range data for seven categories, including Corn, Wheat, Cotton, Crude, USDBRL, EURUSD, and IR. Features also include Volume and Range data for Soybeans.<br>
+- Close data for Soybeans is used as our target, or y. Data is encoded, then divided using train test split. It is topped off by scaling the data, then fed to the neural network.<br>
+- Our model is still incomplete as we are deciding how we want to bin data. We are also experimenting with several loss and activation functions in effort to find the optimal components for a regression analysis. Because the model is incomplete, it’s unclear as to how the model is limited and how we benefit from using it in our analysis.<br>
 ## Analysis Plan
 ###### Dataset
 ###### Limitations Of The Dataset
