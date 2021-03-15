@@ -16,6 +16,7 @@ This project aims to develop a structural model to explain COVID-19 merchandisin
 - There are currently 23 features, including Close, Volume, and Range data for seven categories, including Corn, Wheat, Cotton, Crude, USDBRL, EURUSD, and IR. Features also include Volume and Range data for Soybeans.<br>
 - Close data for Soybeans is used as our target, or y. Data is encoded, then divided using train test split. It is topped off by scaling the data, then fed to the neural network.<br>
 - Our model is still incomplete as we are deciding how we want to bin data. We are also experimenting with several loss and activation functions in effort to find the optimal components for a regression analysis. Because the model is incomplete, it’s unclear as to how the model is limited and how we benefit from using it in our analysis.<br>
+- [Neural Network](https://github.com/ChrisBarton107/Group_Project/blob/main/NeuralNet_PriceData.ipynb)<br>
 ## Analysis Plan
 ###### Dataset
 ###### Limitations Of The Dataset
