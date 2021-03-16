@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+
+>>>>>>> 1405607e1ef1bdac764dfd322fbdac0aec4a72a0
 # An Analysis of Grain Merchandising In Relation To COVID19 and Futures Contracts
 ## Overview of Project
 To make informed decisions, grain merchandisers need to predict the future price of commodities based on their current price. As more grain merchandisers create future contacts with buyers as a strategy to minimize risk, knowing whether to accept or reject a given price, becomes increasingly important.
