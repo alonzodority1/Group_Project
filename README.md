@@ -4,9 +4,7 @@ Food manufactures face a lot of pressure to keep costs stable to maintain a comp
 ###### Background of this project
 On average, agricultural commodities account for 55 cents of every dollar spent to manufacture the end product within the Food and Beverage Manufacturing industry. With such a high ratio, it is imperative that manufactures know the right price to buy raw materials. Purchasing agricultural commodities too high will result in grave financial impacts. 
 Further, the continuing impact of COVID-19, has resulted in reduction in demand, thus resulting in a higher cost derived from increased volume of inventory and storage of unsold end products. In this challenging environment, food manufactures are being forced to rethink the way they purchase and procure agricultural  raw materials. 
-
 This project aims to develop a predictive model to guide food manufacturers in the purchase of agricultural commodities during the COVID-19 climate and beyond.
-
 
 ###### Purpose of this project
 The purpose of the project is to utilize Artificial Neural Network (ANN) modeling to transforming the way food manufacturing companies manage the risk associated with purchasing agricultural raw materials/commodities. 
@@ -50,5 +48,20 @@ Figure 7: Pre-Covid vs. post-Covid
 
 ## Limitations Of Study
 The model performs well but needs to be optimized and improved if it is to be used in an industrial setting.
+## Future Work
+# An Analysis of Grain Merchandising In Relation To COVID19 and Futures Contracts
+## Overview of Project
+To make informed decisions, grain merchandisers need to predict the future price of commodities based on their current price. As more grain merchandisers create future contacts with buyers as a strategy to minimize risk, knowing whether to accept or reject a given price, becomes increasingly important.
+###### Background of this project 
+Demand of grain merchandise has been severely impacted as consumer behavior has significantly decreased due to COVID19. As COVID19 pandemic continues to thwart the supply chain and reduce demand due consumer underspending, it is important to support grain merchandisers with predictive tools to leverage the uncertainty of the COVID19 climate. 
+Research suggests that grain producers experience higher costs and lower revenues as a result of COVID-19 with the Food and Agricultural Policy Research Institute at the University of Missouri projecting a $21.9 billion decrease in farm income in 2021.
+###### Purpose of this project
+This project aims to support grain merchandisers with identifying possible opportunities for profit by using Artificial Neural Network (ANN) algorithms, time series methods such as seasonal ARIMA and State Space models, and other approaches to identify relationships overtime in the cash price of Soybean, Corn, Cotton and Wheat. 
+This project aims to develop a structural model to explain COVID-19 merchandising behavior as compared to pre-COVID-19, and forecast performance of these commodities within the COVID-19 climate and beyond.
+## Analysis Plan
+###### Dataset
+###### Limitations Of The Dataset
+## Presentation of Findings
+## Limitations Of Study
 ## Future Work
 
