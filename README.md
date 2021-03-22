@@ -12,12 +12,11 @@ This project aims to support grain merchandisers with identifying possible oppor
 This project aims to develop a structural model to explain COVID-19 merchandising behavior as compared to pre-COVID-19, and forecast performance of these commodities within the COVID-19 climate and beyond.
 
 ###### Neural Network Model
-- Stock/financial data was used. High and Low data were dropped while Close and Volume data were kept. Range data was created by subtracting Low data from High data prior to dropping High and Low data.<br>
-- There are currently 23 features, including Close, Volume, and Range data for seven categories, including Corn, Wheat, Cotton, Crude, USDBRL, EURUSD, and IR. Features also include Volume and Range data for Soybeans.<br>
-- Close data for Soybeans is used as our target, or y. Data is encoded, then divided using train test split. It is topped off by scaling the data, then fed to the neural network.<br>
-- Our model is still incomplete as we are deciding how we want to bin data. We are also experimenting with several loss and activation functions in effort to find the optimal components for a regression analysis. Because the model is incomplete, it’s unclear as to how the model is limited and how we benefit from using it in our analysis.<br>
-- [Neural Network](https://github.com/ChrisBarton107/Group_Project/blob/main/NeuralNet_PriceData.ipynb)<br>
-## Analysis Plan
+- Stock/financial data was used. The model is designed to make a decision to buy a select commodity in the present or hold and purchase at a later date.<br>
+- There are currently 33 features. Data is encoded, then divided using train test split. It is topped off by scaling the data, then fed to the neural network. The neural network is a sequential model and consists of two hidden layers and an output layer. The first layer consists of 80 nodes, while the second layer consists of 30 nodes. The output layer consists of one node. Activation functions include ReLu, ReLu, and sigmoid, respectively. The neural network is then compiled using a binary crossentropy loss function, an Adam optimizer, and uses accuracy as the metric.<br>
+- We decided to extract different data from our analysis, so our machine learning model is very different than the model used previously. We previously attempted to perform a regression analysis but have adjusted the analysis and designed the neural network to make a binary classification. The model is trained using 100 iterations and consistently achieves approximately 70% accuracy. With an accuracy score like this, the model performs well but needs to be optimized and improved if it is to be used in an industrial setting.<br>
+
+
 ###### Dataset
 ###### Limitations Of The Dataset
 ## Presentation of Findings
