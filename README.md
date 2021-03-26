@@ -1,12 +1,10 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 =======
 
->>>>>>> 1405607e1ef1bdac764dfd322fbdac0aec4a72a0
 # An Analysis of Grain Merchandising In Relation To COVID19 and Futures Contracts
 =======
 # Application of Machine Learning to Predict a Competitive Agriculture Commodity Purchase and Procurement Strategy for Food Manufactures
->>>>>>> e887d6eeedd27883e243e50f3b190ef5f99dc40d
+
 ## Overview of Project
 Food manufactures face a lot of pressure to keep costs stable and maintain a competitive advantage or reduce costs to increase profits. Hence, Food Manufacturers have to be skilled at purchasing commodities at the optimal price. Using artificial neural systems increases the possibility to progress Food Manufacturers ability to reliably process information needed to determine whether to purchase a commodity based on criteria that makes it an ideal purchase price. Agricultural commodity goods, like Sugar, Soybean Oil, Soybeans, Wheat, Cotton and Corn are raw materials that are integral to the production of many food manufacturers’ end product. Therefore the purpose of this project is to create a predictive model for Food Manufacturers to inform when is the best time to purchase. It is well documented that agricultural commodities are sensitive to market variability through exchange rates, interest rates, and the supply and demand of the global economy. Therefore, the creation of a predictive model for purchasing and procurement will allow food manufacturers to effectively predict, negotiate, purchase and procure raw materials at the best possible price.
 
