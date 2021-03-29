@@ -1,7 +1,7 @@
 
 =======
 
-# An Analysis of Grain Merchandising In Relation To COVID19 and Futures Contracts
+# An Analysis of Grain Merchandising In Relation To Futures Contracts
 =======
 #### Application of Machine Learning to Predict a Competitive Agriculture Commodity Purchase and Procurement Strategy for Food Manufactures
 ##### by Alonzo Dority, Chris Barton, Jaime Chusid, Shola Thompson
